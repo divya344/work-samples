@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.strong-text{
+    font-weight: 600;
+}
+
+.banner{
+    background-image: linear-gradient(to right, #1B3F89, #E23434, #F28F34);
+    padding: 80px 0px;
+    margin-top: 50px;
+}
+
+h2,h5,h3,h6,
+.how-it-works a{
+    color: #2D3954;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 23px;
+}
+
+p,td,th,li{
+    font-size: 15px;
+    color: #2D3954;
+}
+
+.about-packers-movers .row .col-lg-4 section{
+    display: flex;
+    padding: 20px 20px 15px 20px;
+   
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.thinking-of-moving{
+    background-image: url('images/thinking-of-moving-bg.png');
+    background-position: cover;
+    background-size: 100%;
+    background-color: #FCF4EE;
+    border-radius: 8px;
+}
+
+.thinking-of-moving .col-lg-4{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1.5px solid #2D3954;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thinking-of-moving ul,
+.top-property-services .tab-nav{
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.thinking-of-moving ul li .active,
+.top-property-services .tab-nav li .active,
+.compare-home-loans li .active {
+    color: #EF8534;
+    font-weight: 600;
+    border-bottom:2px solid #EF8534;
+}
+
+.thinking-of-moving ul li,
+.top-property-services .tab-nav li {
+    margin: 0px 10px;
+}
+
+.thinking-of-moving ul li a,
+.thinking-of-moving ul li a:hover,
+.top-property-services .tab-nav li a,
+.top-property-services .tab-nav li a:hover,
+.compare-home-loans li a,
+.compare-home-loans li a:hover {
+    color: #4E5C79;
+}
+
+.thinking-of-moving h5{
+    font-size: 17px;
+}
+
+.primary-btn{
+    background-color: #08184B;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+}
+
+.enquiry-btn{
+    background-color: #08184B;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.approx-relocation-charges table,
+.differences table{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.approx-relocation-charges thead,
+.differences thead{
+    background-color: #FCF4EE; 
+}
+
+.approx-relocation-charges table tr td, th{
+    padding: 30px 0;
+    height: 60px;
+    vertical-align:middle;
+}
+
+
+.differences table tr td{
+    padding: 30px 10px;
+    height: 60px;
+    vertical-align:middle;
+}
+
+.sets-us-apart thead th{
+    border: none;
+    text-decoration: underline;
+}
+
+.why-choose-packers .row .col-lg-3 section{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    height: 320px;
+    margin-bottom: 15px;
+}
+
+.faqs .accordion-button::after,
+#faqs .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+.faqs .accordion-button:not(.collapsed)::after,
+#faqs .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+.accordion-item{
+    margin-bottom:20px;
+    border-bottom: 1.5px solid #000;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #000;
+}
+
+.accordion-button {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.accordion-body {
+    background: #fff;
+}
+
+.how-it-works .row{
+    background-color: #FCF4EE;
+}
+
+.how-it-works .row .col-lg-6 .boxes{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #2D3954;
+}
+
+.how-it-works .row .login-form .login-form-section{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #2D3954;
+}
+
+.how-it-works form .row{
+    background-color: #fff;
+}
+
+
+.documents-required ul,
+.most-utilized-services ul,
+.top-property-services ul,
+#eligibility-criteria ul,
+#factors-affecting ul{
+    list-style: none;
+}
+
+.documents-required ul li:before,
+.most-utilized-services ul li:before,
+.top-property-services section ul li:before,
+#eligibility-criteria ul li:before,
+#factors-affecting ul li:before{
+    content:  url(images/list-style.png);
+    display:  inline-block;
+    vertical-align:  middle;
+    text-indent: -1.98571429em;
+}
+
+.turnkey-services{
+    background-image: url('images/turnkey-services-bg.jpg');
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.turnkey-services  .row .col-lg-4 section{
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    height: 380px;
+    margin-top: 15px;
+}
+
+.why-choose-us .row .col-lg-2{
+    margin-top: 20px;
+}
+
+.border-box{
+    border-right: 1px solid #707070;
+}
+
+#modular_kitchen .col-lg-3,
+#wardrobe .col-lg-3,
+#living_room .col-lg-3,
+#kids_room .col-lg-3,
+#kitchen_false_ceiling .col-lg-3,
+#master_bedroom .col-lg-3,
+#kitchen_wall_tiles .col-lg-3,
+#balcony .col-lg-3{
+    position: relative;
+    margin-bottom:15px ;
+}
+
+#modular_kitchen h5,
+#wardrobe h5,
+#living_room h5,
+#kids_room h5,
+#kitchen_false_ceiling h5,
+#master_bedroom h5,
+#kitchen_wall_tiles h5,
+#balcony h5{
+    position: absolute;
+    font-size: 12px;
+    left: 0px;
+    text-align: center;
+    bottom:-10px;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    padding:20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.design-ideas ul li .active,
+.furniture-on-rent .nav_tabs li .active {
+    color: #fff;
+    font-weight: 600;
+    background-color: #08184B;
+}
+
+.design-ideas ul li,
+.furniture-on-rent .nav_tabs li {
+    margin: 10px 5px;
+    border: 2px solid #08184B;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.design-ideas ul li a,
+.design-ideas ul li a:hover,
+.furniture-on-rent .nav_tabs li a,
+.furniture-on-rent .nav_tabs li a:hover {
+    color: #4E5C79;
+}
+
+.way-we-work .boxes{
+    padding:20px 0px;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    height: 380px;
+    margin-bottom: 15px
+}
+
+.blue-box{
+    background-color: #0066B8;
+    
+}
+
+.yellow-box{
+    background-color: #FF9932;
+}
+
+.orange-box{
+    background-color: #FF6D3F;
+}
+
+.green-box{
+    background-color: #00BFA1;
+}
+
+.darkblue-box{
+    background-color: #002F46;
+}
+
+.blue-box h3,
+.yellow-box h3,
+.orange-box h3,
+.green-box h3,
+.darkblue-box h3 {
+    color: #fff;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #fff;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.blue-box h5,
+.yellow-box h5,
+.orange-box h5,
+.green-box h5,
+.darkblue-box h5{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.sets-us-apart{
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-td{
+    text-align: center;
+}
+
+.second-td{
+    background-color: #FFC79C;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.services-under-one-roof .col-lg-2{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.services-under-one-roof .row .col-lg-2 h6{
+    background-color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    font-size: 12px;
+    left: 20px;
+    text-align: center;
+    bottom:-20px;
+    width:80%;
+    height: 35px;
+    padding:10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.exceptional-design{
+    position: relative;
+}
+
+.exceptional-design section{
+    position: absolute;
+    margin: 0 auto;
+    left: 15%;
+    text-align: left;
+    top:100px;
+    padding:0 20px;
+}
+
+.check-home-loan-eligibility-form{
+    background-color: #FCF4EE;
+}
+
+.check-home-loan-eligibility-form .form-control {
+    border: none;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.check-home-loan-eligibility-form label{
+    color: rgba(0, 0, 0,0.5);
+}
+
+.check-home-loan-eligibility-form .form-control:focus,
+.how-it-works .form-control:focus {
+    box-shadow: none;
+    border-color: #08184B;
+    background-color: #fff;
+    color: #000;
+}
+
+.check-home-loan-eligibility-form .form-control:focus + label{
+    color: #08184B;
+}
+
+.check-home-loan-eligibility-form select {
+    border-color: #707070;
+}
+
+
+.check-home-loan-eligibility-form select:focus {
+    box-shadow: none;
+    border-color: #08184B;
+}
+
+.most-utilized-services .row .owl-carousel .item .services-boxes{
+    position: relative;
+    padding: 20px 30px 0px 30px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    height: 450px;
+}
+
+i{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: -20px;
+    color: #08184B;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.fa-arrow-left{
+    margin-left: -25px;
+}
+.fa-arrow-right{
+    margin-right: -25px;
+}
+.owl-carousel {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+.owl-carousel .owl-stage {
+    position: relative;
+}
+.owl-carousel .owl-item {
+    color: #000;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 10px 0px 0 0px;
+}
+
+.process-of-rent-agreement-online ol {
+    counter-reset: item;
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+.process-of-rent-agreement-online ol > li {
+    counter-increment: item;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 2rem;
+    text-indent: -1.2rem;
+}
+.process-of-rent-agreement-online ol > li::before {
+    content: counter(item) ".";
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 0.5rem;
+    text-align: right;
+    width: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .owl-carousel .owl-item {
+        color: #000;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+}
+
+.owl-carousel .owl-nav {
+    position: static;
+}
+.owl-carousel .owl-nav > div {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+.owl-carousel .owl-nav > div.owl-prev {
+    left: 15px;
+}
+.owl-carousel .owl-nav > div.owl-next {
+    right: 15px;
+}
+
+#legal_services .row .col-lg-6 .legal-services-boxes,
+#monitoring_valuation .row .col-lg-6 .monitoring-valuation-boxes{
+    position: relative;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: auto;
+}
+
+.most-utilized-services .row  .item .sample-report-details,
+#legal_services .row .col-lg-6 .sample-report-details,
+#monitoring_valuation .row .col-lg-6 .sample-report-details{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: right;
+}
+
+.most-utilized-services .row .item .sample-report-details h6,
+#legal_services .row .col-lg-6 .sample-report-details h6,
+#monitoring_valuation .row .col-lg-6 .sample-report-details h6{
+    background-color: #FFC79C;
+    padding: 5px 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.most-utilized-services .row p,
+#legal_services .row p,
+#monitoring_valuation .row p{
+    text-decoration: line-through;
+}
+
+#legal_services ul li,
+#monitoring_valuation ul li{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.most-utilized-services .bottom-text{
+    background-color: #EF8534;
+    color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0;
+}
+
+.primary-btn:hover{
+    background-color: #08184B;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+}
+
+.the-platform .row .col-lg-4 section{
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.improve-your-experience,
+.what-makes-unique{
+    background-image: linear-gradient(to right, #1B3F89, #E23434, #F28F34);
+    padding: 80px 80px;
+}
+
+.improve-your-experience h3,
+.improve-your-experience p,
+.what-makes-unique h3,
+.what-makes-unique p{
+    color: #fff;
+}
+
+.secondary-btn{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 14px;
+    float: right;
+    font-weight: 600;
+    color: #2D3954;
+    box-shadow: 0 0 7px 4px rgba(255, 255, 255,0.6);
+}
+
+.blue-border-btn{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    float: middle;
+    font-weight: 600;
+    color: #08184B;
+    border: 2px solid #08184B;
+}
+
+.blue-border-btn:hover{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    float: middle;
+    font-weight: 600;
+    color: #08184B;
+    border: 2px solid #08184B;
+}
+
+.tabbed-view-content{
+    border: 1px solid #2D3954;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.furniture-on-rent .row .col-lg-4 section{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits-of-renting .accordion-item{
+    margin-bottom:20px;
+    border: 0.5px solid #000;
+}
+
+.benefits-of-renting .accordion-button{
+    font-size: 15px;
+    font-weight: 600;
+    color: #2D3954;
+}
+
+.loan-interest-rates table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.loan-interest-rates thead th{
+    border: none;
+    background-color: #FCF4EE;
+}
+
+#factors-affecting th,
+#factors-affecting td,
+#application-documentation-process td{
+    font-size: 14px;
+    padding: 15px;
+}
+
+.testimonials{
+    max-width: 900px;
+    padding: 0 0px 0px;
+    margin: 0 auto 0px auto;
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 10px 15px 0px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: url('images/Group\ 3122.png');
+    background-position: center;
+    background-size: 70%;
+    padding: 10px 50px 50px 50px;
+    background-repeat: no-repeat;
+}
+.img-area {
+    margin: 0 15px 15px 15px;
+}
+.img-area img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid #D63434;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #000;
+    margin-top: -50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .turnkey-services  .row .col-lg-4 section{
+        background-color: #fff;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px;
+        height: auto;
+        margin-top: 15px;
+    }
+    
+    .border-box{
+        border-right: none;
+    }
+    
+    .way-we-work .boxes{
+        padding:20px 0px;
+        border-radius: 8px;
+        color: #fff;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .exceptional-design section{
+        position: absolute;
+        margin: 0 auto;
+        left: 15%;
+        text-align: left;
+        top:70px;
+        padding:0 20px;
+    }
+    
+    .most-utilized-services .row .owl-carousel .item .services-boxes{
+        position: relative;
+        padding: 20px 30px 0px 30px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        height: auto;
+    }
+}
+
+
+
+/*divya*/
+.vasthu-banner{
+    background-image: linear-gradient(to right, #1B3F89, #E23434, #F28F34);
+     margin-top: 50px;
+}
+
+.Spreads-Positivity{
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+.How-Vastu-Consulation-through-us-worksh2{
+ position: absolute; 
+ top:0; 
+ color: rgba(72, 70, 70, 0.297);
+ font-weight: 500;
+ font-size:500px ;
+}
+
+hr {
+ text-align: left;
+ margin-left: 0;
+  }
+.text{
+   border-bottom: rgba(72, 70, 70, 0.297) 3px dashed;
+    
+  }
+
+
